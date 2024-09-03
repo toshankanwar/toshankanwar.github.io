@@ -1,0 +1,131 @@
+/* photoshop components*/
+
+.photoshop-components-home{
+    display: flex;
+    width: 100%;
+    padding-top: 100px;
+    background-color: #1f242d;
+    height:auto;
+}
+.photoshop-heading{
+    position: fixed;
+    width: 170px;
+    height: 800px;
+    display: block;
+    background-color: #1f242d;
+    border-right: 2px solid black;
+}
+.photoshop-heading a{
+    display: block;
+    margin:20px 10px 20px 10px;
+    text-decoration: none;
+    color: #fff;
+    font-family: epilogue, segoe ui, Roboto, helvetica neue, Arial, sans-serif;
+}
+.photoshop-heading-hidden{
+    display: none;
+   
+}
+.icon{
+    display: none;
+}
+
+
+
+.photoshop-content{
+width: 100%;
+}
+.page{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #323946;
+}
+.interface{
+    font-size: 60px;
+   margin-top: -880px;
+   color: #fff;
+   margin-left: 200px;
+}
+.image1 img{
+    width: 100%;
+    object-fit: contain;
+}
+.page h1{
+    color: #0ef;
+    margin: 20px 0 20px 20px;
+    font-size: 40px;
+}
+.page p{
+    color: #fff;
+    margin-left: 20px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.page a{
+    color: #0ef;
+    margin-left: 20px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.page li{
+    color: #fff;
+    margin-left: 20px;
+    line-height: 30px;
+    font-size: 20px; 
+}
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 50px auto;
+    background-color: #fff;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+caption{
+    color: #fff;
+}
+
+
+@media screen and (max-width: 440px) {
+    .interface{
+        font-size: 15px;
+        margin:0 15% 0 15%;
+    }
+    .page{
+        margin-right:0%;
+    }
+    .photoshop-heading{
+        display: none;
+    }
+    .photoshop-heading-hidden a{
+        display: block;
+       
+        margin:20px 10px 20px 10px;
+        text-decoration: none;
+        color: #fff;
+        font-family: epilogue, segoe ui, Roboto, helvetica neue, Arial, sans-serif;
+    }
+    .photoshop-heading-hidden{
+        display: none;
+        width: 100px;
+        height: auto;
+        background-color: #1f242d;
+        border-right: 2px solid black;
+  
+    }
+   .icon{
+    display: block;
+    color: #fff;
+    position: fixed;
+   }
+ 
+   
+
+}
+

@@ -1,0 +1,453 @@
+  /* skills */
+        * {
+
+    font-family: poppins, sans-serif;
+}
+
+body {
+    background-color:#1f242d;
+}
+
+.bx {
+    margin-top: 20px;
+}
+
+.bxl-react {
+    color: #0bbae6;
+}
+
+.bxl-css3 {
+    color: #147bbc;
+}
+
+.bxl-javascript {
+    color: #b0bc1e;
+}
+.bxl-python {
+    color: #b0bc1e;
+}
+.bxl-postgresql {
+    color: #1e6de5;
+}
+
+
+
+.bxl-php {
+    color: rgb(166, 0, 255);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.container1 {
+    width: 600px;
+    height: auto;
+    padding: 75px 90px;
+    margin-left: 120px;
+}
+
+.heading1{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+.head1{
+    margin-left: 0px;
+}
+
+.bar {
+    font-size: 23px;
+}
+
+.technical-bars .bar {
+    margin-top: 40px 0;
+}
+
+.technical-bars .bar:first-child {
+    margin-top: 0;
+
+}
+
+.technical-bars .bar:last-child {
+    margin-bottom: 0;
+}
+
+.technical-bars .bar .info {
+    margin-bottom: 5px;
+
+}
+
+.technical-bars .bar .info span {
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    animation: showtext 0.5s 1s linear forwards;
+}
+
+.technical-bars .bar .progress-line {
+    position: relative;
+    border-radius: 10px;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+    -webkit-animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+
+    }
+}
+
+.technical-bars .bar .progress-line span {
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #0ef;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+    -webkit-animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+
+.progress-line.react span {
+    width: 60%;
+}
+
+.progress-line.css span {
+    width: 60%;
+}
+
+.progress-line.javascript span {
+    width: 75%;
+}
+.progress-line.mysql span {
+    width: 75%;
+}
+.progress-line.python span {
+    width: 70%;
+}
+
+
+.progress-line.php span {
+    width: 30%;
+}
+
+.progress-line span::after {
+    position: absolute;
+    padding: 1px 8px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -28px;
+    right: -20px;
+    animation: showtext 0.5s 1.5s linear forwards;
+    opacity: 0;
+
+}
+.progress-line.react span::after {
+    content: "60%";
+}
+
+.progress-line.css span::after {
+    content: "60%";
+}
+
+.progress-line.javascript span::after {
+    content: "75%";
+}
+.progress-line.mysql span::after {
+    content: "75%";
+}
+.progress-line.python span::after {
+    content: "70%";
+}
+
+
+.progress-line.php span::after {
+    content: "30%";
+}
+
+.progress-line span::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    top: -10px;
+    right: 0;
+    animation: showtext 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+
+@keyframes showtext {
+    100% {
+        opacity: 1;
+    }
+}
+
+.radial-bars {
+    margin-left: -80px;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.radial-bars .radial-bar {
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.radial-bars .radial-bar svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)rotate(-90deg);
+    width: 120px;
+    height: 160px;
+}
+
+.radial-bars .radial-bar.progress-bar {
+    stroke-width: 10;
+    stop-color: black;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+
+}
+
+@keyframes animate-bar {
+    100% {
+        stroke-dashoffset: -1;
+    }
+
+}
+
+.path {
+    stroke-width: 10;
+    stroke: #0ef;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+
+.path-1 {
+    animation: animate-path1 1s 1s linear forwards;
+}
+
+.path-2 {
+    animation: animate-path2 1s 1s linear forwards;
+
+}
+
+.path-3 {
+    animation: animate-path3 1s 1s linear forwards;
+}
+
+.path-4 {
+    animation: animate-path4 1s 1s linear forwards;
+}
+
+@keyframes animate-path1 {
+    100% {
+        stroke-dashoffset: 90;
+        ;
+    }
+}
+
+@keyframes animate-path2 {
+    100% {
+        stroke-dashoffset: 250;
+        ;
+    }
+}
+
+@keyframes animate-path3 {
+    100% {
+        stroke-dashoffset: 150;
+        ;
+    }
+}
+
+@keyframes animate-path4 {
+    100% {
+        stroke-dashoffset: 75;
+        ;
+    }
+}
+
+.radial-bar .percentage {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showtext 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+.radial-bar .text {
+    width: 100%;
+    color: #fff;
+    margin-top: 150px;
+    margin-left: 150px;
+    bottom: -5px;
+    transform: translateX(-50px);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showtext 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+footer{
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 440px) {
+    .container1 {
+        width:90% ;
+        height: auto;
+        padding: 75px 90px;
+        margin-left: 68px;
+    }
+    .heading1 {
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 5px;
+        font-size: 26px;
+        margin-bottom: 50px;
+        margin-left: -67px;
+        color: #fff;
+    }
+    .heading1.professional{
+        margin-top:9%;
+    }
+    
+    .technical-bars{
+        margin-left: -50px;
+    }
+    .radial-bars {
+        margin-left: -60px;
+        padding-top: 5%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .radial-bar{
+        padding-left: 150px;
+    }
+    .radial-bar .text {
+        width: 100%;
+        color: #fff;
+        margin-top: 150px;
+        margin-left: -60px;
+        bottom: -5px;
+        transform: translateX(-50px);
+        font-size: 17px;
+        font-weight: 500;
+        animation: showtext 0.5s 1s linear forwards;
+        opacity: 0;
+    }
+  
+ 
+     
+}
+
+@media screen and (max-width: 600px)and (min-width: 440px) {
+    .container1 {
+         width:90% ;
+         height: auto;
+         padding: 75px 90px;
+         margin-left: 68px;
+     }
+     .heading1 {
+         text-align: center;
+         text-decoration: underline;
+         text-underline-offset: 10px;
+         text-decoration-thickness: 5px;
+         font-size: 29px;
+         margin-bottom: 50px;
+         margin-left: -37px;
+         color: #fff;
+     }
+      .heading1.professional{
+        padding-top:9%;
+    }
+     
+     .technical-bars{
+         margin-left: -27px;
+     }
+     .radial-bars {
+         margin-left: -37px;
+         margin-top: 10px;
+         width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+         align-items: flex-start;
+     }
+     .radial-bar{
+         padding-left: 150px;
+     }
+     .radial-bar .text {
+         width: 100%;
+         color: #fff;
+         margin-top: 150px;
+         margin-left: -60px;
+         bottom: -5px;
+         transform: translateX(-50px);
+         font-size: 17px;
+         font-weight: 500;
+         animation: showtext 0.5s 1s linear forwards;
+         opacity: 0;
+     }
+    
+}
+
+@media screen and (max-width: 768px)and (min-width:600px) {
+   
+      .right {
+          display: block;
+      }
+      .right img {
+          height: 608px;
+          max-width: 768px;
+         
+      }
+       .heading1.professional{
+        padding-top:50px;
+    }
+  }
+  @media screen and (max-width: 1220px)and (min-width:992px) {
+     .heading1.professional{
+        padding-top:50px;
+    }
+  }

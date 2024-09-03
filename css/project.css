@@ -1,0 +1,98 @@
+main{
+    background-color: #1f242d;
+}
+.project{
+    margin:0 15% 0 15% ;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+.project h1{
+    font-size: 38px;
+    color: #e5e9f0;
+    padding: 20px 0 20px 0;
+}
+.project p{
+    color: #e5e9f0;
+    padding: 20px 0 20px 0;
+    font-size: 24px; 
+}
+.main-box{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 250px;
+    height:340px;
+    background-color: #404857;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 16px;
+
+}
+img{
+    width: 250px;
+    height: 140px;
+    overflow: hidden;
+}
+img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-out;
+    overflow: hidden;
+    
+}
+
+.box:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-out;
+    
+}
+
+.content{
+
+    padding: 20px;
+}
+.box h2{
+    font-size: 20px;
+    color: #88c0d0;
+}
+.languages ul{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: -40px;
+}
+.languages li{
+    list-style: none;
+    color: #ebcb8bf2;
+    border: 1px solid rgb(97, 91, 91);
+    background-color: #4f5a6c;
+    margin-right: 20px;
+    padding: 2px;
+
+}
+.source button{
+    width: 100px;
+    color: #88c0d0;
+    background-color: #404857;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 440px) {
+    .main-box{
+        display: block;
+        justify-content: space-between;
+    } 
+    .box{
+        margin-top: 30px;
+    }
+}
