@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:#1f242d;
+    background-color:#020917;
 }
 
 .bx {
@@ -96,10 +96,10 @@ main {
     height: 5px;
     width: 100%;
     background-color: rgb(0, 0, 0);
-    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    -webkit-animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
     transform: scaleX(0);
     transform-origin: left;
-    -webkit-animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 
 @keyframes animate {
