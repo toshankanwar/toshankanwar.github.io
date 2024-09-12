@@ -11,7 +11,7 @@
     margin-top: 0%;
     height: 60px;
     width: 100%;
-    background-color: #1f242d;
+    background-color: #020917;
     display: flex;
     align-items: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -19,7 +19,7 @@
 
 .topnav {
     overflow: hidden;
-    background-color: #1f242d;
+    background-color: #020917;
     position: relative;
   }
   
@@ -39,7 +39,7 @@
   
   /* Style the hamburger menu */
   .topnav a.icon {
-    background: #1f242d;
+    background: #020917;
     display: block;
     position: absolute;
     right: 0;
@@ -51,7 +51,7 @@
   
   /* Style the active link (or home/logo) */
   .active {
-    background-color:#1f242d;
+    background-color:#020917;
     color: #0ef;
     
   }
@@ -111,19 +111,16 @@
     text-decoration: none;
 }
 
-.mainpro{
-    margin-top: -40px;
-    height: 100%;
-    background-color: #1f242d;
-}
+
 .mainbg{
-    background-color: #1f242d;
+    background-color: #020917;
     padding-left:10% ;
     padding-right: 10%;
 }
 
-.right {
+.home-page {
     display: flex;
+    padding-bottom: 10%;
 }
 
 .introduction img {
@@ -145,7 +142,7 @@
 .welcome {
     margin-left: 80px;
     margin-top: 140px;
-    line-height: 45px;
+    line-height: 55px;
 }
 
 .welcome h2 {
@@ -162,7 +159,7 @@
    
 }
 .welcome h3 {
-    font-size: 30px;
+    font-size: 28px;
     color: #fff;
     font-family: poppins, sans-serif;
 }
@@ -279,56 +276,11 @@
     box-shadow: 0 0 20px #0ef;
 
 }
-
-.words{
-    margin-top: 40px;
- 
-}
-.words h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 0 40px 0;
-    color: #0ef;
-}
-
-.word{
-    
-    display: flex;
-    justify-content: space-around;
-}
-.wor{
-height:150px;
-width: 600px;
-margin-bottom: 10px;
-background-color: #323946;
-border:solid 2px #0ef;
-
-}
-.wor p{
-    color: #fff;
-    font-size: 16px;
-}
-.wor h2{
-    font-size: 18px;
-}
-.cont{
-    padding: 30px;
-}
-.word1 h2{
-    margin-top: 30px;
-    color: #0ef;
-}
-
-.word2 h2{
-    margin-top: 20px;
-    color: #0ef;
-}
 footer {
     height: 60px;
     width: 100%;
     color: #ffffff;
-    background-color:#1f242d;
+    background-color:#020917;
     box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.95), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45);
     margin-bottom: 0px;
     margin-top: 0px;
@@ -401,10 +353,10 @@ footer {
         font-weight: 600;
         font-family: poppins, sans-serif;
     }
-    .right {
+    .home-page  {
         display: block;
     }
-    .right img {
+    .home-page  img {
         height: 300px;
         width: 300px;
         
@@ -512,10 +464,10 @@ margin-top: -50px;
         font-weight: 600;
         font-family: poppins, sans-serif;
     }
-    .right {
+    .home-page {
         display: block;
     }
-    .right img {
+    .home-page  img {
        height: 600px;
       width: 100%;
        
@@ -600,10 +552,10 @@ margin-top: -50px;
   }
   .clock {
     margin-top: 30px;
-    margin-left: 600px;
+    margin-left: 100px;
     width: 150px;
     height: 150px;
-    background-color: #323946;
+    background-color: #020917;
     border-radius: 50%;
     border: 2px solid #0ef;
     position:absolute;
@@ -721,10 +673,10 @@ margin-top: -50px;
           font-weight: 600;
           font-family: poppins, sans-serif;
       }
-      .right {
+      .home-page  {
           display: block;
       }
-      .right img {
+      .home-page  img {
           height: 608px;
           width: 100%;
          
@@ -851,11 +803,11 @@ margin-top: -50px;
         height: 100%;
     }
     
-    .right {
+    .home-page  {
         display: flex;
     }
     
-    .right img {
+    .home-page  img {
         height: 720px;
        max-width: 600px;;
         margin-top: -40px;
@@ -922,43 +874,7 @@ margin-top: -50px;
    
     
 
-    .words{
-        margin-top: 40px;
     
-    }
-    .words h1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 40px 0 40px 0;
-    }
-    
-    .word{
-      
-        display: flex;
-        justify-content: space-around;
-    }
-    .wor{
-    height:150px;
-    width: 100%;
-    background-color: #f3f4f6;
-    }
-    .wor p{
-        color: #4b5563;
-        font-size: 16px;
-    }
-    .wor h2{
-        font-size: 18px;
-    }
-    .cont{
-        padding: 30px;
-    }
-    .word1 h2{
-        margin-top: 30px;
-    }
-    .word2 h2{
-        margin-top: 20px;
-    }
       footer {
           height: 60px;
           max-width: 1220px;
