@@ -627,4 +627,24 @@ textarea:valid+.labelline {
   
   
   }
-
+ .popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        text-align: center;
+        z-index: 1000;
+      }
+      .popup button {
+        margin-top: 10px;
+        padding: 5px 10px;
+        border: none;
+        background: #007bff;
+        color: white;
+        cursor: pointer;
+      }
